@@ -5,16 +5,21 @@ Open-source banking and budgeting app.
 
 ## TODO
 
-### Frontend (Expo, No Auth)
+### Dummy Test
 
-- [ ] Pages
-   - [ ] Homepage
-      - [ ] View Current Balance
+- [x] Frontend
+   - [x] Pages
+     - [x] Homepage
+        - [x] View Current Dummy Balance
+- [x] Backend
+   - [x] /banking
+      - [x] /balance (Dummy Balance)
 
-### Backend (NodeJS, No Auth)
+### Real Balance
 
-- [x] Routes
-   - [x] Banking
-      - [x] Dummy Current Balance
-   - [x] Auth (Google)
-      - [x] Login (Get Token)
+- [ ] Backend
+  - [ ] Routes
+     - [ ] /banking
+        - [ ] /balance (Dummy Balance)
+     - [x] /auth (Google)
+        - [x] /login (Get Token)

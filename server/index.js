@@ -1,5 +1,5 @@
 // Server Settings
-const host = "localhost"
+const host = "localhost";
 const port = 3000;
 
 // Core Modules
