@@ -1,0 +1,30 @@
+{
+  "name": "fincheck",
+  "version": "1.0.0",
+  "description": "Open-source banking and budgeting app.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiscellaneousStuff/fincheck.git"
+  },
+  "keywords": [
+    "banking",
+    "budgeting",
+    "open",
+    "source"
+  ],
+  "author": "MiscellaneousStuff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiscellaneousStuff/fincheck/issues"
+  },
+  "homepage": "https://github.com/MiscellaneousStuff/fincheck#readme"
+}
