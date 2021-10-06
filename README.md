@@ -13,6 +13,6 @@ Open-source banking and budgeting app.
 
 ### Backend (NodeJS, No Auth)
 
-- [ ] Routes
-   - [ ] Plaid
-      - [ ] Dummy Current Balance
+- [x] Routes
+   - [x] Banking
+      - [x] Dummy Current Balance

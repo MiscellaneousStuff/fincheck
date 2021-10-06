@@ -1,14 +1,16 @@
-// Core Modules
-const express = require('express');
-const app = express();
-
 // Server Settings
 const host = "localhost"
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// Core Modules
+const express = require('express');
+const app = express();
+
+// Import Routes
+const banking = require("./routes/api/banking");
+
+// Routes
+app.use("/api/banking", banking)
 
 // Host Settings
 app.listen(port, host, () => {
