@@ -16,3 +16,5 @@ Open-source banking and budgeting app.
 - [x] Routes
    - [x] Banking
       - [x] Dummy Current Balance
+   - [x] Auth (Google)
+      - [x] Login (Get Token)

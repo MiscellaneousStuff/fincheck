@@ -73,6 +73,8 @@ router.post("/login", (req, res) => {
 // @desc Logs a user out of their current session
 // @access Public
 router.get("/logout", (req, res) => {
+    console.log('loging user out...');
+    
     res.clearCookie('session-token');
 
     // NOTE: This will be our login route in the future

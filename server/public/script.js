@@ -26,7 +26,7 @@ function onSignIn(googleUser) {
                 signOut();
 
                 // NOTE: Redirect to cookie required page here...
-                location.assign('banking.html');
+                location.assign('banking');
             }
             // console.log(`Signed in as: ${user}`)
         });
