@@ -5,7 +5,7 @@ Open-source banking and budgeting app.
 
 ## TODO
 
-### Dummy Test
+### 1. Dummy Test
 
 - [x] Frontend
    - [x] Pages
@@ -15,7 +15,7 @@ Open-source banking and budgeting app.
    - [x] /banking
       - [x] /balance (Dummy Balance)
 
-### Real Balance
+### 2. Real Balance
 
 - [ ] Backend
   - [ ] Routes
