@@ -20,6 +20,6 @@ Open-source banking and budgeting app.
 - [ ] Backend
   - [ ] Routes
      - [ ] /banking
-        - [ ] /balance (Dummy Balance)
+        - [ ] /balance (Real Balance using Plaid API)
      - [x] /auth (Google)
         - [x] /login (Get Token)
