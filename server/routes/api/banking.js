@@ -1,3 +1,8 @@
+/*
+This route handles all HTTP methods relating to communicating with
+banking providers (just Plaid API for now!)
+*/
+
 // Core Modules 
 const express = require("express");
 const router = express.Router();
